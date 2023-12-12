@@ -1,4 +1,4 @@
-module github.com/kaspanet/kaspad
+module github.com/sedracoin/sedrad
 
 go 1.18
 

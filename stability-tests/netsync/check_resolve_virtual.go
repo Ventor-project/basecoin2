@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/stability-tests/common/rpc"
+	"github.com/sedracoin/sedrad/app/appmessage"
+	"github.com/sedracoin/sedrad/stability-tests/common/rpc"
 	"github.com/pkg/errors"
 	"time"
 )

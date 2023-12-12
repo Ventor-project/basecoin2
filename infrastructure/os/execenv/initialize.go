@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/kaspanet/kaspad/infrastructure/os/limits"
+	"github.com/sedracoin/sedrad/infrastructure/os/limits"
 )
 
 // Initialize initializes the execution environment required to run kaspad

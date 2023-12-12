@@ -1,13 +1,13 @@
 package coinbasemanager
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashset"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/subnetworks"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionhelper"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
+	"github.com/sedracoin/sedrad/domain/consensus/model"
+	"github.com/sedracoin/sedrad/domain/consensus/model/externalapi"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/constants"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/hashset"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/subnetworks"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/transactionhelper"
+	"github.com/sedracoin/sedrad/infrastructure/db/database"
 	"github.com/pkg/errors"
 	"math"
 )

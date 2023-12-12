@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedracoin/sedrad/domain/dagconfig"
+	"github.com/sedracoin/sedrad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

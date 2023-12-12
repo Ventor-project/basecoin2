@@ -7,10 +7,10 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedracoin/sedrad/domain/consensus/model/externalapi"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/consensushashing"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/constants"
+	"github.com/sedracoin/sedrad/infrastructure/logger"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

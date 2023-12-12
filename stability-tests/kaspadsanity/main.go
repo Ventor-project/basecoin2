@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/sedracoin/sedrad/stability-tests/common"
+	"github.com/sedracoin/sedrad/util/profiling"
 
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedracoin/sedrad/util/panics"
 	"github.com/pkg/errors"
 )
 

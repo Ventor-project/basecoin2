@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/db/database/ldb"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/os/execenv"
-	"github.com/kaspanet/kaspad/infrastructure/os/limits"
-	"github.com/kaspanet/kaspad/infrastructure/os/signal"
-	"github.com/kaspanet/kaspad/infrastructure/os/winservice"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
-	"github.com/kaspanet/kaspad/version"
+	"github.com/sedracoin/sedrad/infrastructure/config"
+	"github.com/sedracoin/sedrad/infrastructure/db/database"
+	"github.com/sedracoin/sedrad/infrastructure/db/database/ldb"
+	"github.com/sedracoin/sedrad/infrastructure/logger"
+	"github.com/sedracoin/sedrad/infrastructure/os/execenv"
+	"github.com/sedracoin/sedrad/infrastructure/os/limits"
+	"github.com/sedracoin/sedrad/infrastructure/os/signal"
+	"github.com/sedracoin/sedrad/infrastructure/os/winservice"
+	"github.com/sedracoin/sedrad/util/panics"
+	"github.com/sedracoin/sedrad/util/profiling"
+	"github.com/sedracoin/sedrad/version"
 )
 
 const (

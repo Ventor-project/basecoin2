@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/sedracoin/sedrad/cmd/sedrawallet/libkaspawallet"
+	"github.com/sedracoin/sedrad/util"
 )
 
 func main() {

@@ -5,18 +5,18 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model"
+	"github.com/sedracoin/sedrad/domain/consensus/model"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/rpc/rpccontext"
-	"github.com/kaspanet/kaspad/app/rpc/rpchandlers"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/model/testapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/hashes"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/miningmanager"
-	"github.com/kaspanet/kaspad/infrastructure/config"
+	"github.com/sedracoin/sedrad/app/appmessage"
+	"github.com/sedracoin/sedrad/app/rpc/rpccontext"
+	"github.com/sedracoin/sedrad/app/rpc/rpchandlers"
+	"github.com/sedracoin/sedrad/domain/consensus"
+	"github.com/sedracoin/sedrad/domain/consensus/model/externalapi"
+	"github.com/sedracoin/sedrad/domain/consensus/model/testapi"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/hashes"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/testutils"
+	"github.com/sedracoin/sedrad/domain/miningmanager"
+	"github.com/sedracoin/sedrad/infrastructure/config"
 )
 
 type fakeDomain struct {

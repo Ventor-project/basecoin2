@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedracoin/sedrad/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
+	"github.com/sedracoin/sedrad/domain/miningmanager/mempool"
 
-	"github.com/kaspanet/kaspad/app/protocol"
-	"github.com/kaspanet/kaspad/app/rpc"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/utxoindex"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	infrastructuredatabase "github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/id"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedracoin/sedrad/app/protocol"
+	"github.com/sedracoin/sedrad/app/rpc"
+	"github.com/sedracoin/sedrad/domain"
+	"github.com/sedracoin/sedrad/domain/consensus"
+	"github.com/sedracoin/sedrad/domain/utxoindex"
+	"github.com/sedracoin/sedrad/infrastructure/config"
+	infrastructuredatabase "github.com/sedracoin/sedrad/infrastructure/db/database"
+	"github.com/sedracoin/sedrad/infrastructure/network/addressmanager"
+	"github.com/sedracoin/sedrad/infrastructure/network/connmanager"
+	"github.com/sedracoin/sedrad/infrastructure/network/netadapter"
+	"github.com/sedracoin/sedrad/infrastructure/network/netadapter/id"
+	"github.com/sedracoin/sedrad/util/panics"
 )
 
 // ComponentManager is a wrapper for all the kaspad services

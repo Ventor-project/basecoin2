@@ -1,10 +1,10 @@
 package mempoollimits
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/network/rpcclient"
-	"github.com/kaspanet/kaspad/stability-tests/common"
-	"github.com/kaspanet/kaspad/util/panics"
-	"github.com/kaspanet/kaspad/util/profiling"
+	"github.com/sedracoin/sedrad/infrastructure/network/rpcclient"
+	"github.com/sedracoin/sedrad/stability-tests/common"
+	"github.com/sedracoin/sedrad/util/panics"
+	"github.com/sedracoin/sedrad/util/profiling"
 	"os"
 	"testing"
 )

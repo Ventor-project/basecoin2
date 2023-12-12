@@ -1,21 +1,21 @@
 package transactionrelay_test
 
 import (
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	"github.com/kaspanet/kaspad/app/protocol/flows/v5/transactionrelay"
+	"github.com/sedracoin/sedrad/app/protocol/flowcontext"
+	"github.com/sedracoin/sedrad/app/protocol/flows/v5/transactionrelay"
 	"testing"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain"
-	"github.com/kaspanet/kaspad/domain/consensus"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/testutils"
-	"github.com/kaspanet/kaspad/domain/miningmanager/mempool"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
-	"github.com/kaspanet/kaspad/util/panics"
+	"github.com/sedracoin/sedrad/app/appmessage"
+	"github.com/sedracoin/sedrad/domain"
+	"github.com/sedracoin/sedrad/domain/consensus"
+	"github.com/sedracoin/sedrad/domain/consensus/model/externalapi"
+	"github.com/sedracoin/sedrad/domain/consensus/utils/testutils"
+	"github.com/sedracoin/sedrad/domain/miningmanager/mempool"
+	"github.com/sedracoin/sedrad/infrastructure/config"
+	"github.com/sedracoin/sedrad/infrastructure/logger"
+	"github.com/sedracoin/sedrad/infrastructure/network/netadapter"
+	"github.com/sedracoin/sedrad/infrastructure/network/netadapter/router"
+	"github.com/sedracoin/sedrad/util/panics"
 	"github.com/pkg/errors"
 )
 

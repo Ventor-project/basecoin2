@@ -5,20 +5,20 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
+	"github.com/sedracoin/sedrad/app/protocol/common"
 
 	"github.com/pkg/errors"
 
-	"github.com/kaspanet/kaspad/domain"
+	"github.com/sedracoin/sedrad/domain"
 
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
+	"github.com/sedracoin/sedrad/domain/consensus/model/externalapi"
 
-	"github.com/kaspanet/kaspad/app/protocol/flowcontext"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/connmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/sedracoin/sedrad/app/protocol/flowcontext"
+	peerpkg "github.com/sedracoin/sedrad/app/protocol/peer"
+	"github.com/sedracoin/sedrad/infrastructure/config"
+	"github.com/sedracoin/sedrad/infrastructure/network/addressmanager"
+	"github.com/sedracoin/sedrad/infrastructure/network/connmanager"
+	"github.com/sedracoin/sedrad/infrastructure/network/netadapter"
 )
 
 // Manager manages the p2p protocol

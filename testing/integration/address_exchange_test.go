@@ -1,7 +1,7 @@
 package integration
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
+	"github.com/sedracoin/sedrad/infrastructure/network/addressmanager"
 	"testing"
 )
 

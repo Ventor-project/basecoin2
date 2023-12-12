@@ -1,7 +1,7 @@
 package blockvalidator
 
 import (
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/sedracoin/sedrad/infrastructure/logger"
 )
 
 var log = logger.RegisterSubSystem("BLVA")

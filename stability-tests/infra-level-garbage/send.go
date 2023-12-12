@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
+	"github.com/sedracoin/sedrad/app/protocol/common"
 	"github.com/pkg/errors"
 )
 

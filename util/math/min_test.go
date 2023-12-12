@@ -1,7 +1,7 @@
 package math_test
 
 import (
-	utilMath "github.com/kaspanet/kaspad/util/math"
+	utilMath "github.com/sedracoin/sedrad/util/math"
 	"math"
 	"testing"
 )

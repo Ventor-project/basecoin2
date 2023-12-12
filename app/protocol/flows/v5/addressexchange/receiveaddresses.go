@@ -1,12 +1,12 @@
 package addressexchange
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	"github.com/kaspanet/kaspad/infrastructure/network/addressmanager"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/sedracoin/sedrad/app/appmessage"
+	"github.com/sedracoin/sedrad/app/protocol/common"
+	peerpkg "github.com/sedracoin/sedrad/app/protocol/peer"
+	"github.com/sedracoin/sedrad/app/protocol/protocolerrors"
+	"github.com/sedracoin/sedrad/infrastructure/network/addressmanager"
+	"github.com/sedracoin/sedrad/infrastructure/network/netadapter/router"
 )
 
 // ReceiveAddressesContext is the interface for the context needed for the ReceiveAddresses flow.
