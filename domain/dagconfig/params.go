@@ -215,8 +215,9 @@ var MainnetParams = Params{
 	DefaultPort: "16111",
 	DNSSeeds: []string{
 		"sedracoin.com",
+		"dns1.sedracoin.com",
+		"www.sedracoin.com",
 		"13.200.153.31",
-		"dns1.sedracoin.com",	
 	},
 
 	// DAG parameters
