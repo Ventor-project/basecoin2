@@ -214,24 +214,9 @@ var MainnetParams = Params{
 	RPCPort:     "16110",
 	DefaultPort: "16111",
 	DNSSeeds: []string{
-		// This DNS seeder is run by Wolfie
-		"mainnet-dnsseed.kas.pa",
-		// This DNS seeder is run by Denis Mashkevich
-		"mainnet-dnsseed-1.kaspanet.org",
-		// This DNS seeder is run by Denis Mashkevich
-		"mainnet-dnsseed-2.kaspanet.org",
-		// This DNS seeder is run by Constantine Bytensky
-		"dnsseed.cbytensky.org",
-		// This DNS seeder is run by Georges Künzli
-		"seeder1.kaspad.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder2.kaspad.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder3.kaspad.net",
-		// This DNS seeder is run by Georges Künzli
-		"seeder4.kaspad.net",
-		// This DNS seeder is run by Tim
-		"kaspadns.kaspacalc.net",
+		"sedracoin.com",
+		"13.200.153.31",
+		"dns1.sedracoin.com",	
 	},
 
 	// DAG parameters
@@ -293,14 +278,14 @@ var MainnetParams = Params{
 // TestnetParams defines the network parameters for the test Kaspa network.
 var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
-	Name:        "kaspa-testnet-10",
+	Name:        "sedra-mainnet",
 	Net:         appmessage.Testnet,
 	RPCPort:     "16210",
 	DefaultPort: "16211",
 	DNSSeeds: []string{
-		"testnet-10-dnsseed.kas.pa",
-		// This DNS seeder is run by Tiram
-		"seeder1-testnet.kaspad.net",
+		"sedracoin.com",
+		"13.200.153.31",
+		"dns1.sedracoin.com",
 	},
 
 	// DAG parameters
