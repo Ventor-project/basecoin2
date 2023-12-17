@@ -277,14 +277,13 @@ var MainnetParams = Params{
 // TestnetParams defines the network parameters for the test Kaspa network.
 var TestnetParams = Params{
 	K:           defaultGHOSTDAGK,
-	Name:        "sedra-mainnet",
-	Net:         appmessage.Testnet,
-	RPCPort:     "16210",
-	DefaultPort: "16211",
+	Name:        "kaspa-mainnet",
+	Net:         appmessage.Mainnet,
+	RPCPort:     "16110",
+	DefaultPort: "16111",
 	DNSSeeds: []string{
 		"sedracoin.com",
-		"13.200.153.31",
-		"dns1.sedracoin.com",
+		"seeds1.sedracoin.com",
 	},
 
 	// DAG parameters
